@@ -1,0 +1,18 @@
+# EditorConfig is awesome: http://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+[*]
+indent_style = tab
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+[*.bat]
+end_of_line = crlf
+
+# Files needing space indentations
+[{package.json,.travis.yml,composer.json,*.yaml,*.yml}]
+indent_style = space
+indent_size = 2
