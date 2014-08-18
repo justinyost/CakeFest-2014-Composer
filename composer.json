@@ -1,0 +1,36 @@
+{
+  "name": "jtyost2/cakefest-2014-composer",
+  "description": "Sample Scripts for Composer Talk at CakeFest 2014",
+  "license": "MIT",
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "jtyost2/samplegitrepo",
+        "version": "1.0.0",
+        "dist": {
+          "url": "https://github.com/jtyost2/Sample-Git-Repo-Composer/archive/master.zip",
+          "type": "zip"
+        },
+        "source": {
+          "url": "git@github.com:jtyost2/Sample-Git-Repo-Composer.git",
+          "type": "git",
+          "reference": "1.0.0"
+        }
+      }
+    },
+    {
+      "type": "vcs",
+      "url": "git@bitbucket.org:jtyost2/sample-private-git-repo.git"
+    }
+  ],
+  "require": {
+    "loadsys/cakephp-shell-scripts": "2.0.*",
+    "jtyost2/samplegitrepo": "1.0.0",
+    "jtyost2/sample-private-git-repo": "dev-master"
+  },
+  "config": {
+    "vendor-dir": "Vendor/",
+    "bin-dir": "bin"
+  }
+}
