@@ -1,0 +1,14 @@
+{
+  "name": "jtyost2/cakefest-2014-composer-sample",
+  "description": "Sample Scripts for Composer Talk at CakeFest 2014",
+  "license": "MIT",
+  "require": {
+    "required/package-name": "version-number",
+  },
+  "require-dev": {
+    "dev-required/package-name": "version-number",
+  },
+  "suggest": {
+    "suggested/package-name": "version-number",
+  }
+}
