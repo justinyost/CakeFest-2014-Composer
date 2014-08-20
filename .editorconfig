@@ -13,6 +13,18 @@ trim_trailing_whitespace = true
 end_of_line = crlf
 
 # Files needing space indentations
-[{package.json,.travis.yml,composer.json,*.yaml,*.yml}]
+[composer.json]
+indent_style = space
+indent_size = 2
+
+[*.json]
+indent_style = space
+indent_size = 2
+
+[*.yaml]
+indent_style = space
+indent_size = 2
+
+[*.yml]
 indent_style = space
 indent_size = 2
