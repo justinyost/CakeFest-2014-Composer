@@ -3,6 +3,7 @@
     "description": "CakeFest Composer CakePHP 2.4+ Sample App",
     "license": "MIT",
     "require": {
+        "php": ">=5.2.8",
         "cakephp/cakephp": ">=2.4.0",
         "cakephp/debug_kit": "2.2.*",
         "cakedc/migrations": "2.2.*"
