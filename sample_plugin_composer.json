@@ -1,0 +1,24 @@
+{
+  "name": "jtyost2/sample-composer-cakephp-plugin",
+  "description": "Sample Composer file for CakePHP Plugin",
+  "type": "cakephp-plugin",
+  "keywords": ["cakephp","sample", "plugin"],
+  "homepage": "http://www.yostivanich.com",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Justin Yost",
+      "email": "justin.yost@yostivanich.com",
+      "homepage": "http://www.yostivanich.com"
+    }
+  ],
+  "support": {
+    "email": "justin.yost@yostivanich.com",
+    "issues": "https://github.com/jtyost2/project-name/issues",
+    "source": "https://github.com/jtyost2/project-name"
+  },
+  "require": {
+    "php": ">=5.2.8",
+    "composer/installers": "*"
+  }
+}
