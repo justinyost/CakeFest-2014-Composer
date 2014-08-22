@@ -9,6 +9,6 @@
     "dev-required/package-name": "version-number",
   },
   "suggest": {
-    "suggested/package-name": "version-number",
+    "suggested/package-name": "Reason this is suggested",
   }
 }
